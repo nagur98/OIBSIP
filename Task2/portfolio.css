@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+li {
+float: left;
+}
+li a {
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+img{
+    float: left;
+    height: 300px;
+    width: 300px;
+    left: 200px;
+    top: 140px;
+    position: relative;
+
+    
+}
+.m{
+    text-align:center;
+    position: relative;
+    left:-90px;
+    top:190px;
+
+}
+#m1{
+    font-size: 29px;
+    color: white;
+    position: relative;
+    left:-75px;
+}
+#m2{
+    font-size: 50px;
+    color: aqua;
+}
+#m3{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: -25px;
+}
+#m4{
+    color:white;
+    font-size:40px;
+    position: relative;
+    right:120px;
+}
+#About{
+    color:white;
+    position: relative;
+    top:300px;
+    left:-290px;
+    font-size: 35px;
+    color:wheat;
+}
+.about{
+    color: white;
+    position: relative;
+    bottom: -300px;
+    font-size: 25px;
+}
+#Skills{
+    color:white;
+    position: relative;
+    bottom: -310px;
+}
+.s1{
+    color: wheat;
+    font-size: 35px;
+}
+.li1{
+    font-size: 20px;
+}
+#Contact{
+    color:white;
+    position: relative;
+    bottom:-320;
+}
+#Contact p{
+    font-size: 35px;
+    color: wheat;
+}
+#Contact ul li{
+    font-size: 20px;
+}
+
+
