@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: aquamarine;
+    background: #333;
+    padding: 13px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+/* Colors */
+.text-primary {
+    color: aquamarine;
+}
+
+.current {
+    color: aquamarine;
+    background:rgb(79, 77, 77);
+}
+
+.text-white {
+    color: #fff;
+}
+
+/* Navbar */
+#navbar {
+    background: dimgray;
+    color: white;
+    overflow: auto;
+}
+
+.container {
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.container h1 {
+    padding: 20px;
+}
+
+.container li {
+    float: left;
+}
+
+.container ul li a {
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
+
+.info-left {
+    float: left;
+    width: 50%;
+}
+
+.info-right {
+    float: right;
+    width: 50%;
+}
+/* Home */
+#bg-home {
+    background: url(Images/lens-1.jpg) no-repeat center center/cover;
+    height: 700px;
+}
+
+.center-content {
+    color: white;
+    text-align: center;
+    padding-top: 140px;
+}
+
+#bg-home h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#bg-home p {
+    font-size: 20px;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+/* Shop */
+#about-info {
+    padding: 30px 0;
+    background: #fff;
+    color: #333;
+}
+
+#about-info p {
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.l-heading {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.container-style {
+    height: 310px;
+    overflow: hidden;
+}
+
+.img-info {
+    height: 90%;
+    width: 180%;
+    position: relative;
+    top: -30px;
+    right: 200px;
+}
+
+/* Glasses info */
+.glass-padding {
+    padding: 20px 40px 20px;
+}
+
+.glass-header {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.glass-header h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.glass-header p {
+    margin: 10px 0;
+}
+
+.glass-flex .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.glass-flex .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.glass-flex .column img {
+    width: 100%;
+}
+
+#glass-background {
+    background-color: black;
+    /*background-image: url(C:\Nagur_VSCode\Html\udemy_projects\Task1_oasis\large-image-spects.jpg) no-repeat center center/cover;
+    */display: inline-block;
+    height: 700px;
+}
+
+.column img{
+    transition: 0.5s all ease-in-out;
+}
+
+.column img:hover {
+    transform: scale(0.8);
+    border-radius: 25%;
+}
+
+/* Reviewers */
+#review-info {
+    margin-top: 10px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.r-heading {
+    padding-bottom: 20px;
+    color: #fff;
+    left: -10px;
+    position: relative;
+}
+
+.review-color {
+    color: #fff;
+    overflow: hidden;
+}
+
+.review-1 {
+    position: relative;
+    left: 65px;
+    padding-bottom: 10px;
+}
+
+.review-2 {
+    position: relative;
+    left: 125px;
+    padding-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+}

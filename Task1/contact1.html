@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        a{
+            text-decoration: none;
+            font-size: 20px;
+        }
+        li{
+          display: inline;
+        }
+        #li-1{
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Our Contact Form</h1>
+        <section style="background-color: violet;">
+       <form action="https:/httpbin.org/get" method="get">
+        <fieldset>
+            <legend style="font-size: 40px;">
+              <strong>  send us a message </strong>
+            </legend>
+            <p>
+                <label for="name"><strong>Name</strong></label>
+                <input type="text" name="name" id="name" placeholder="your name" required>
+                
+            </p>
+            <p>
+                <label for="email"><strong>Email :</strong></label>
+                <input type="email" name="email" id="email" placeholder="your email" required>
+
+            </p>
+            <p>
+                <label for="message"><strong>your message</strong></label>
+                <textarea name="message" id="message" cols="30" placeholder="Type your message here"></textarea>
+            </p>
+        </fieldset>
+        <button type="submit"><strong>send</strong></button>
+        <button type="reset"><strong>Reset</strong></button>
+       </form>
+    </section>
+    </main>
+    <hr> 
+    <footer>
+        <p>copyright &copy; LensMall </p>
+    </footer>
+    <nav>
+        <ul>
+        <li><a href="C:\Nagur_VSCode\Html\udemy_projects\Task1_oasis\shop.html"><b>SHOP</b></a></li>
+        <li id="li-1"><a href="C:\Nagur_VSCode\Html\udemy_projects\Task1_oasis\index.html"><b>HOME</b></a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>
